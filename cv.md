@@ -1,7 +1,7 @@
 # Ivan Martynjuk
 *Add image*
 
-GIT## Contacts
+## Contacts
 * **location** *Gomel, Belarus*
 * **Phone:** *+375 44 7093817*
 * **E-mail:** *martiniukgomel@gmail.com*
@@ -13,10 +13,15 @@ Engeneer, who fonded of photography, mountain hiking and alpinism and tarantula 
 I am a leafe on the wind, watch how i soar.
 
 ## Skills
+
 Photoshop
+
 Git
+
 HTML
+
 CSS
+
 JavaScript (in progress)
 
 ### Code example
