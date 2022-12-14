@@ -32,5 +32,5 @@ Ha-ha
 * **Russian - C2** (state)
 \* If my memory serves me well. (d')If - is an island nearby Marseille, as I remember *(ba-dum-tss)*
 
-[1]:https://t.me/szczuczynszczyna
-[2]:https://github.com/GoodValts
+[1]:https://github.com/GoodValts
+[2]:https://t.me/szczuczynszczyna
