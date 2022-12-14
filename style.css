@@ -1,0 +1,46 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    border: 1px solid royalblue;
+}
+
+.main {
+    border: 1px solid rebeccapurple;
+}
+
+.footer {
+    border: 1px solid orange;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.photo {
+    max-width: 200px;
+    max-height: 200px; 
+}
+
+
+html {
+    scroll-behavior: smooth; 
+  }
