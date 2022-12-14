@@ -40,6 +40,16 @@ body {
     max-height: 200px; 
 }
 
+.giticon {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.rssicon {
+    max-width: 200px;
+    max-height: 200px;
+}
+
 
 html {
     scroll-behavior: smooth; 
