@@ -1,48 +1,161 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+    border: 0px dotted #ff0000;
+
+}
+
 body {
     font-family: 'Source Serif Pro', serif;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0px;
+    border: 0px;
+    padding: 0px;
     display: flex;
+    
     flex-direction: column;
+
     justify-content: space-between;
 }
 
-* {
-    box-sizing: border-box;
-  }
-
 .header {
-    border: 1px solid royalblue;
+    
+    display: flex;
+    margin-top: 2vh;
+    border-radius: 10px 10px 0 0; 
+    background-color: royalblue;
+    }
+
+.rightblock {
+    margin: auto;
+    width: 70%;
+}
+
+.leftblock {
+    margin: auto;
+    width: 30%;
+    background-color: royalblue;
+}
+
+.div {
+    margin: 1%;
+}
+.photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headersection {
+    color: gold;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 48pt;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.profession {
+    font-size: 22pt;
+    margin: auto;
 }
 
 .main {
-    border: 1px solid rebeccapurple;
+    border: 1px solid rebeccapurple;  
+    }
+
+.nav {
+    position: sticky;
+    top: 0;
+    border-radius: 10px 0 0 10px;
+    margin: 0 auto;
 }
 
-.footer {
-    border: 1px solid orange;
+.navlist {
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    padding-left: 33%;
+    }
+
+.navitem {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14pt;
+    border-radius: 0 0 10px 10px;
+    background-color: royalblue;  
+}
+
+.nav-link {
+    color: navy;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    margin: 0px;
+}
+
+.aside {
+    margin: 0px;
+    background-color: royalblue;
+}
+
+.section {
+    color: black;
+}
+
+.h2 {
+    font: size 20pt;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.commonlist {
+    margin: 0px;
+    list-style: none;
+    }
+ 
+.commonparagraph {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    text-align: start;
+    font-size: 16pt;
+    list-style: none;
 }
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0px;
 }
 
-.nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+.footer {
+    border: 1px solid orange;
+    display: flex;
+    background-color: royalblue;
 }
 
-.photo {
-    max-width: 200px;
-    max-height: 200px; 
-}
+.footersection {
+    display: flex;
+    background-color: royalblue;
+    }
 
+.gitlink {
+    display: flex;
+    }
 .giticon {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 20px;
 }
 
 .rssicon {
