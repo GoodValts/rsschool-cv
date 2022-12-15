@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="icon" href="assets/img/favicon4.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
     <header class="header">
         <div class="div leftblock">
             <img src="assets/img/avatar.png" alt="my photo" class="photo">
@@ -19,21 +19,20 @@
         <section class="headersection rightblock">
             <h1 class="h1">Ivan Martynjuk</h1>
             <p class="profession"><a>Front-End Developer</a></p>
+            <nav class="nav">
+                <ul class="navlist">
+                  <li class="navitem"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="navitem"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="navitem"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="navitem"><a href="#codeexample" class="nav-link">Code Example</a></li>
+                  <li class="navitem"><a href="#experience" class="nav-link">Experience</a></li>
+                  <li class="navitem"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="navitem"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
         </section>
     </header>
     <main class="main">
-        <nav class="nav">
-            <ul class="navlist">
-              <li class="navitem"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="navitem"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="navitem"><a href="#skills" class="nav-link">Skills</a></li>
-              <li class="navitem"><a href="#codeexample" class="nav-link">Code Example</a></li>
-              <li class="navitem"><a href="#experience" class="nav-link">Experience</a></li>
-              <li class="navitem"><a href="#education" class="nav-link">Education</a></li>
-              <li class="navitem"><a href="#languages" class="nav-link">Languages</a></li>
-            </ul>
-        </nav>
-        <div class="content">
             <aside class="aside leftblock" id="contacts">
                 <section class="section leftblock">
                     <h2 class="h2"><a>Contacts</a></h2>
@@ -107,21 +106,20 @@
                     </ul>
                 </section>
             </div>
-        </div>
     </main>
     <footer class="footer">
-        <div class="footersection leftblock">
+        <div class="footersectionleft leftblock">
             <a class="gitlink" href="https://github.com/GoodValts">
                 <img src="assets/img/github.png" alt="git_link" class="giticon">
-                <p class="footertext">GitHub</p>
+                <p class="gittext">GitHub</p>
             </a>
         </div>
-        <div class="footersection rightblock">
+        <div class="footersectionmain rightblock">
             <a class="rsslink" href="https://rs.school/js/">
                 <img src="assets/img/rsschool.png" alt="rss_link" class="rssicon">
             </a>
         </div>
-        <div class="footersection rightblock">
+        <div class="footersectionmain rightblock">
             <p class="footerparagraph">© 2022</p>
         </div>
     </footer>

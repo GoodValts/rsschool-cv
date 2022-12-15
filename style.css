@@ -163,6 +163,10 @@ body {
     max-height: 200px;
 }
 
+.zzz {
+    text-decoration: line-through;
+}
+
 
 html {
     scroll-behavior: smooth; 
