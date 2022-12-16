@@ -17,9 +17,10 @@ a, a:hover, a:focus, a:active {
 }
 
 .body {
-    max-width: 1440px;
+    max-width: 1920px;
     font-weight:600;
     width: 80vw;
+    min-width: 1100px;
 }
 
 .header {
@@ -101,6 +102,11 @@ a, a:hover, a:focus, a:active {
     padding-top: 5px;
 }
 
+.navitem:hover {
+    color: PapayaWhip;
+    border-top: 2px solid PapayaWhip;
+}
+
 .main {
     display: flex;
 }
@@ -134,6 +140,10 @@ a, a:hover, a:focus, a:active {
     display: flex;
     justify-content: center;
     align-items:center;
+}
+
+.contactlink:hover {
+    text-decoration: underline;
 }
 
 .languages {
