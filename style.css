@@ -1,0 +1,285 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+    border: 0px dotted #ff0000;
+    margin: auto;
+    padding: 0px;
+    text-decoration: inherit;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.body {
+    max-width: 1440px;
+    font-weight:600;
+    width: 80vw;
+}
+
+.header {
+    display: flex;
+    padding-top: 2vh;
+}
+
+.leftblock {
+    display: block;
+    width: 30%;
+    background-color: #4B61D1;
+    color: white;
+}
+
+.rightblock {
+    display: block;
+    width: 70%;
+    
+}
+
+.div {
+    border-radius: 2vh 0 0 0;
+}
+
+.photo {
+    display: block;
+    max-width: 80%;
+    margin: 5% auto;
+}
+
+.headersection {
+    background-color:#6495ed;
+    margin: 0;
+    border-radius: 0 2vh 2vh 0;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 6rem;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Oswald', sans-serif;
+    color: GhostWhite;
+}
+
+.profession {
+    text-align: center;
+    font-size: 2.5rem;
+    height: 30%;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    color: ghostwhite;
+}
+
+.nav {
+    display: block;
+    height: 10%;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.navlist {
+    display: flex;
+    background-color: #6495ed;
+    border-radius: 0 .7vh .7vh 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.navitem {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+
+.main {
+    display: flex;
+}
+
+.aside {
+    display: block;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 5vh auto 5vh auto;
+    width: 100%;
+}
+
+.h2left {
+   font-size: 2rem;
+   font-weight: 500;
+   margin: 2vh 20%;
+}
+
+.commonlistleft {
+    list-style-type: none;
+}
+
+.commontextleft {
+    font-size: 1rem;
+    margin: .5vw 20% .5vw 10px;
+    font-weight: 400;
+    max-width: 80%;
+    color: inherit white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.languages {
+    font-size: 1rem;
+    margin: .5vw 20%;
+    font-weight: 400;
+    max-width: 80%;
+    color: inherit white;
+}
+
+.commoncontact {
+    display: flex;
+}
+
+.iconcontact {
+    width: 30px;
+    height: 30px;
+    margin: .5vw 0 .5vw 20%;
+}
+
+.h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2vh 0;
+    padding: 0 5%;
+    background-color: #6495ed;
+    border-radius: 0 5vh 5vh 0;
+    color: snow;
+}
+
+.commonparagraph {
+    font-size: 1.3rem;
+    margin: 2vh 5% 2hv 0;
+    font-weight: 500;
+    max-width: 90%;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.commonparagraphquote {
+    font-size: 1rem;
+    margin: 1vh 5% 2vh 5%;
+    font-weight: 400;
+    max-width: 80%;
+    font-style: italic;
+}
+
+.commontext {
+    font-size: 1.3rem;
+    margin: 1vh 0 2vh 8%;
+    font-weight: 400;
+    max-width: 80%;
+    color: inherit;
+}
+
+.commontextquote {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 400;
+    max-width: 80%;
+    font-style: italic;
+}
+
+.codeparagraph {
+    font-size: 1rem;
+    margin: 1vh 0 0 5%;
+    font-weight: 200;
+    max-width: 80%;
+    background-color: mintcream;
+    border-radius: 3vw;
+}
+
+.iconproject {
+    width: 75px;
+    height: 50px;
+    margin: .5vw 0 .5vw 20%;
+}
+
+.commontext {
+    font-size: 1.3rem;
+    margin: 1vh 0 2vh 8%;
+    font-weight: 400;
+    max-width: 80%;
+    color: inherit;
+}
+
+.footer {
+    display: flex;
+    padding-bottom: 2vh;
+}
+
+.footersectionleft {
+    margin: 0;
+    width: 30%;
+    border-radius: 0 0 0 2vh;
+}
+
+.gitlink {
+    display: flex;
+    width: 30%;
+    margin: 50px auto;
+}
+
+.giticon {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.gittext {
+    display: block;
+    margin-left: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.footersectionmain {
+    margin: 0;
+    width: 50%;
+    background-color: #6495ed;
+}
+
+.rsslink {
+    display: flex;
+    width: 50%;
+    margin: 4% auto;
+    background-color: #6495ed;
+}
+
+.rssicon {
+    display: block;
+    width: 200px;
+    
+}
+
+.footersection {
+    margin: 0;
+    width: 20%;
+    background-color: #6495ed;
+    border-radius: 0 2vh 2vh 0;
+}
+.footerparagraph {
+    display: block;
+    text-align: center;
+    margin: 23% auto;
+    color: white;
+    font-weight: 200;
+    font-size: rem;
+}
