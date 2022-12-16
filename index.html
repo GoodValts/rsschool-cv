@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/img/favicon4.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Serif+Pro&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <header class="header">
@@ -24,7 +27,8 @@
                   <li class="navitem"><a href="#contacts" class="nav-link">Contacts</a></li>
                   <li class="navitem"><a href="#summary" class="nav-link">Summary</a></li>
                   <li class="navitem"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="navitem"><a href="#codeexample" class="nav-link">Code Example</a></li>
+                  <li class="navitem"><a href="#codeexample" class="nav-link">Code</a></li>
+                  <li class="navitem"><a href="#projects" class="nav-link">Progects</a></li>
                   <li class="navitem"><a href="#experience" class="nav-link">Experience</a></li>
                   <li class="navitem"><a href="#education" class="nav-link">Education</a></li>
                   <li class="navitem"><a href="#languages" class="nav-link">Languages</a></li>
@@ -35,74 +39,125 @@
     <main class="main">
             <aside class="aside leftblock" id="contacts">
                 <section class="section leftblock">
-                    <h2 class="h2"><a>Contacts</a></h2>
-                    <ul class="commonlist">
-                        <li class="commontext"><a>Location</a></li>
-                        <li class="commontext"><a>Phone</a></li>
-                        <li class="commontext"><a>E-mail</a></li>
-                        <li class="commontext"><a>GitHub</a></li>
-                        <li class="commontext"><a>Telegram</a></li>
+                    <h2 class="h2left"><a>Contacts</a></h2>
+                    <ul class="commonlistleft">
+                        <li><a class="commoncontact" href="https://www.google.by/maps/place/Гомель,+Беларусь/@52.4249933,30.8808703,12z/data=!3m1!4b1!4m5!3m4!1s0x46d4699b50faf1a5:0x5ecca30fd2361396!8m2!3d52.4313388!4d30.99367">
+                            <img src="assets/img/location.png" alt="location_logo" class="iconcontact">
+                            <p class="commontextleft">Gomel, Belarus</p>
+                            </a>
+                        </li>
+                        <li><a class="commoncontact">
+                            <img src="assets/img/phone.png" alt="phone_logo" class="iconcontact">
+                            <p class="commontextleft">+375 (44) 709-38-14</p>
+                            </a>
+                        </li>
+                        <li><a class="commoncontact">
+                            <img src="assets/img/mail.png" alt="mail_logo" class="iconcontact">
+                            <p class="commontextleft">Martiniukgomel@gmail.com</p>
+                            </a>
+                        </li>
+                        <li><a class="commoncontact" href="https://github.com/GoodValts">
+                            <img src="assets/img/github.png" alt="git_logo" class="iconcontact">
+                            <p class="commontextleft">GitHub</p>
+                            </a>
+                        <li><a class="commoncontact" href="https://t.me/szczuczynszczyna">
+                            <img src="assets/img/telegram.png" alt="telegram_logo" class="iconcontact">
+                            <p class="commontextleft">Telegram</p>
+                            </a>
+                        </li>
                     </ul>
                 </section>
                 <section class="section leftblock" id="skills">
-                    <h2 class="h2"><a>Skills</a></h2>
-                    <ul class="commonlist">
-                        <li class="commontext"><a>Photoshop</a></li>
-                        <li class="commontext"><a>Git</a></li>
-                        <li class="commontext"><a>HTML</a></li>
-                        <li class="commontext"><a>CSS</a></li>
-                        <li class="commontext"><a>JavaScript (in progress)</a></li>
+                    <h2 class="h2left"><a>Skills</a></h2>
+                    <ul class="commonlistleft">
+                        <li><a class="commoncontact">
+                            <img src="assets/img/photoshop.png" alt="ps_logo" class="iconcontact">
+                            <p class="commontextleft">Photoshop</p>
+                            </a>
+                        </li>
+                        <li><a class="commoncontact">
+                            <img src="assets/img/git.png" alt="git_logo" class="iconcontact">
+                            <p class="commontextleft">Git</p>
+                            </a>
+                        </li>
+                        <li><a class="commoncontact">
+                            <img src="assets/img/html.png" alt="html_logo" class="iconcontact">
+                            <p class="commontextleft">HTML</p>
+                            </a>
+                        </li>
+                        <li><a class="commoncontact">
+                            <img src="assets/img/css.png" alt="css_logo" class="iconcontact">
+                            <p class="commontextleft">CSS</p>
+                            </a>
+                        </li>
+                        <li><a class="commoncontact">
+                            <img src="assets/img/js2.png" alt="js_logo" class="iconcontact">
+                            <p class="commontextleft">JavaScript (in progress)</p>
+                            </a>
+                        </li>
                     </ul>
                 </section>
                 <section class="section leftblock" id="languages">
-                    <h2 class="h2"><a>Languages</a></h2>
-                    <ul class="commonlist">
-                        <li class="commontext"><a>English</a></li>
-                        <li class="commontext"><a>Belarusian</a></li>
-                        <li class="commontext"><a>Russian</a></li>
+                    <h2 class="h2left"><a>Languages</a></h2>
+                    <ul class="commonlistleft">
+                        <li class="languages"><a>English — B2 Intermediate</a></li>
+                        <li class="languages"><a>Belarusian — C2 Native</a></li>
+                        <li class="languages"><a>Russian — C2 State</a></li>
                     </ul>
                 </section>
             </aside>
             <div class="container rightblock" id="summary">
                 <section class="section rightblock">
                     <h2 class="h2"><a>Summary</a></h2>
-                    <p class="commonparagpaph">
+                    <p class="commonparagraph">
                         <a>Engeneer, who fonded of photography, mountain hiking and alpinism and tarantula keeping. My goal is to make smth really valuable and great, that help this world to be equitable and better. I estime honest and intellectual people with shining eyes.</a>
                     </p>
-                    <p class="commonparagpaph quote">
+                    <p class="commonparagraphquote">
                         <a> I am a leafe on the wind, watch how i soar</a>
                     </p>
                 </section>
                 <section class="section rightblock" id="experience">
                     <h2 class="h2"><a>Experience</a></h2>
                     <ul class="commonlist">
-                        <li class="commontext"><a>Building engineer</a></li>
-                        <li class="commontext"><a>Procurement manager</a></li>
-                        <li class="commontext"><a>Director</a></li>
-                        <li class="commontext"><a>Team-lead (Yandex Go Partners Financial support)</a></li>
+                        <li class="commontext"><p>Team Lead (Yandex Go <a class="commontextquote">Partners Financial support</a>) <a class="commontextquote">2020-ATM</a></p></li>
+                        <li class="commontext"><p>Director <a class="commontextquote">2019-2022</a></p></li>
+                        <li class="commontext"><p>Procurement manager <a class="commontextquote">2018-2019</a></p></li>
+                        <li class="commontext"><p>Building engineer <a class="commontextquote">2017-2018</a></p></li>                        
                     </ul>
                 </section>
                 <section class="section rightblock" id="codeexample">
                     <h2 class="h2"><a>Code Example</a></h2>
-                        <p class="codeparagpaph">
-                            <a>const assert = require("chai").assert;
-    
-                                describe("Multiply", () => {
-                                  it("fixed tests", () => {
+                    <pre class="codeparagraph">
+                        <code>
+                            const assert = require("chai").assert;
+
+                            describe("Multiply", () => {
+                                it("fixed tests", () => {
                                     assert.strictEqual(multiply(1,1), 1);
                                     assert.strictEqual(multiply(2,1), 2);
                                     assert.strictEqual(multiply(2,2), 4);
                                     assert.strictEqual(multiply(3,5), 15);   
-                                  });
-                                });</a>
-                        </p>
-                </section>       
+                                });
+                            });</code>
+                        </pre>        
+                </section>
+                <section class="section rightblock" id="prosects">
+                    <h2 class="h2"><a>Prosects</a></h2>
+                    <ul class="commontext">
+                        <li class="commonlist">
+                            <a class="commonlistitem" href="https://github.com/GoodValts/rsschool-cv">
+                                <!--img src="assets/img/stage0.png" alt="stage0_logo" class="iconproject"-->
+                                <p>RSSchool <!--delete "Stage 0 (JS Junior Dev)"-->Stage 0 (JS Junior Dev)<i class="commontextquote"><!--Stage 0--></i></p>
+                            </a>                      
+                        </li>
+                    </ul>
+                </section>
                 <section class="section rightblock" id="education">
                     <h2 class="h2"><a>Education</a></h2>
                     <ul class="commonlist">
-                        <li class="commontext"><a>Gomel State Linguistic Gymnasy (2000-2012)</a></li>
-                        <li class="commontext"><a>Belarusian State University of Transport (2012-2017)</a></li>
-                        <li class="commontext"><a>RSSchool (2022-ATM)</a></li>
+                        <li class="commontext"><p>Gomel State Linguistic Gymnasy <a class="commontextquote">2000-2012</a></p></li>
+                        <li class="commontext"><p>Belarusian State University of Transport <a class="commontextquote">2012-2017</a></p></li>
+                        <li class="commontext"><p>RSSchool <a class="commontextquote">2022-ATM</a></p></li>
                     </ul>
                 </section>
             </div>
@@ -119,7 +174,7 @@
                 <img src="assets/img/rsschool.png" alt="rss_link" class="rssicon">
             </a>
         </div>
-        <div class="footersectionmain rightblock">
+        <div class="footersection rightblock">
             <p class="footerparagraph">© 2022</p>
         </div>
     </footer>
