@@ -1,3 +1,3 @@
 # rsschool-cv
-https://goodvalts.github.io/rsschool-cv/
-git 
+https://GoodValts.github.io/rsschool-cv/cv
+https://GoodValts.github.io/rsschool-cv/
