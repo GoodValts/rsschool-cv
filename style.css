@@ -60,7 +60,7 @@ a, a:hover, a:focus, a:active {
 .h1 {
     text-align: center;
     font-size: 6rem;
-    height: 60%;
+    height: 55%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ a, a:hover, a:focus, a:active {
 .profession {
     text-align: center;
     font-size: 2.5rem;
-    height: 30%;
+    height: 35%;
     margin: auto;
     font-family: 'Oswald', sans-serif;
     color: ghostwhite;
@@ -103,8 +103,8 @@ a, a:hover, a:focus, a:active {
 }
 
 .navitem:hover {
-    color: PapayaWhip;
-    border-top: 2px solid PapayaWhip;
+    color: papayawhip;
+    border-top: 2px solid papayawhip;
 }
 
 .main {
@@ -124,7 +124,7 @@ a, a:hover, a:focus, a:active {
 .h2left {
    font-size: 2rem;
    font-weight: 500;
-   margin: 2vh 20%;
+   margin: 4vh 20% 2vh 20%;
 }
 
 .commonlistleft {
@@ -148,7 +148,7 @@ a, a:hover, a:focus, a:active {
 
 .languages {
     font-size: 1rem;
-    margin: .5vw 20%;
+    margin: 1vw 20%;
     font-weight: 400;
     max-width: 80%;
     color: inherit white;
@@ -156,11 +156,12 @@ a, a:hover, a:focus, a:active {
 
 .commoncontact {
     display: flex;
+    margin: 1vh auto;
 }
 
 .iconcontact {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: .5vw 0 .5vw 20%;
 }
 
