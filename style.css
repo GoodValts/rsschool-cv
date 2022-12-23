@@ -136,7 +136,7 @@ a, a:hover, a:focus, a:active {
     margin: .5vw 20% .5vw 10px;
     font-weight: 400;
     max-width: 80%;
-    color: inherit white;
+    color: white;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -151,7 +151,7 @@ a, a:hover, a:focus, a:active {
     margin: 1vw 20%;
     font-weight: 400;
     max-width: 80%;
-    color: inherit white;
+    color: white;
 }
 
 .commoncontact {
@@ -177,7 +177,7 @@ a, a:hover, a:focus, a:active {
 
 .commonparagraph {
     font-size: 1.3rem;
-    margin: 2vh 5% 2hv 0;
+    margin: 2vh 5% 2vh 5%;
     font-weight: 500;
     max-width: 90%;
     line-height: 150%;
@@ -292,5 +292,5 @@ a, a:hover, a:focus, a:active {
     margin: 23% auto;
     color: white;
     font-weight: 200;
-    font-size: rem;
+    font-size: 1rem;
 }
