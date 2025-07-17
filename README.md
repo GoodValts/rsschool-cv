@@ -1,2 +1,2 @@
 https://GoodValts.github.io/rsschool-cv-Stage0-RSS/cv
-https://GoodValts.github.io/rsschool-cv-Stage0-RSS/
+https://GoodValts.github.io/rsschool-cv/
